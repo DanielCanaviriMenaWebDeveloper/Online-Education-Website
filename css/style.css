@@ -83,4 +83,29 @@ html {
 .header .navbar ul li ul li {
   width: 100%;
 }
+
+#menu-btn {
+  cursor: pointer;
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}
 /*# sourceMappingURL=style.css.map */

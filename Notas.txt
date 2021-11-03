@@ -2,3 +2,13 @@ Font Awesome - Versión 5.15.4
 URL : https://cdnjs.com/libraries/font-awesome 
 URL : https://cdnjs.com/libraries/font-awesome/5.15.4
 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css
+
+
+
+Responsive Design
+
+// Se aplica las reglas hasta los 1200px de resolución
+@media (max-width:1200px) {
+    // Reglas CSS
+}
+
