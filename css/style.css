@@ -88,6 +88,7 @@ html {
   cursor: pointer;
   color: #fff;
   font-size: 2.5rem;
+  display: none;
 }
 
 /* MEDIA QUERIES */
@@ -98,8 +99,18 @@ html {
 }
 
 @media (max-width: 768px) {
+  #menu-btn {
+    display: inline-block;
+  }
   .header {
     padding: 2rem;
+  }
+  .header .navbar {
+    position: absolute;
+    top: 99%;
+    background: red;
+    left: 0;
+    right: 0;
   }
 }
 
