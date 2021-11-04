@@ -2,6 +2,6 @@
 
 <p>https://danielcanavirimenawebdeveloper.github.io/Online-Education-Website/</p>
 
-<img src="images/imagen.jpg">
+<img src="images/imagen.png">
 
 <p>Page Under Development</p>
