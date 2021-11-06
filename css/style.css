@@ -109,74 +109,87 @@ section {
   /* 250px */
 }
 
-.footer .box h3 {
+.footer .box-container .box h3 {
   font-size: 2.2rem;
   padding: 1rem 0;
   color: #302851;
 }
 
-.footer .box a {
+.footer .box-container .box a {
   display: block;
   font-size: 1.4rem;
   padding: 1rem 0;
   color: #666;
 }
 
-.footer .box a:hover {
+.footer .box-container .box a:hover {
   color: #fa1d86;
 }
 
-.footer .box a:hover i {
+.footer .box-container .box a:hover i {
   padding-right: 2rem;
 }
 
-.footer .box a i {
+.footer .box-container .box a i {
   padding-right: .5rem;
 }
 
+.footer .credit {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  font-size: 2rem;
+  color: #666;
+  border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+  padding-top: 2.5rem;
+}
+
+.footer .credit span {
+  color: #fa1d86;
+}
+
 /* MEDIA QUERIES */
-/* @media (max-width:1200px) {
-    html {
-        font-size: 55%; // 1rem = 8.8px
-    }
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+  section {
+    padding: 3rem 2rem;
+  }
 }
 
-@media (max-width:768px) {
-    #menu-btn {
-        display: inline-block;
-    }
-    
-    .header {
-        padding: 2rem;
-
-        .navbar {
-            position: absolute;
-            top: 99%;
-            background: blue;
-            left: 0;
-            right: 0;
+@media (max-width: 768px) {
+  #menu-btn {
+    display: inline-block;
+  }
+  .header {
+    padding: 2rem;
+  }
+  .header .navbar {
+    position: absolute;
+    top: 99%;
+    background: blue;
+    left: 0;
+    right: 0;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
             clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-
-            &.active {
-                clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-            }
-
-            ul li {
-                width: 100%;
-
-                ul {
-                    width: 100%;
-                    position: relative;
-                }
-            }
-        }
-    }
-
+  }
+  .header .navbar.active {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .header .navbar ul li {
+    width: 100%;
+  }
+  .header .navbar ul li ul {
+    width: 100%;
+    position: relative;
+  }
 }
 
-@media (max-width:450px) {
-    html {
-        font-size: 50%; //  1rem = 8px
-    }
-} */
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
