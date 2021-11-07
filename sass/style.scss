@@ -38,6 +38,24 @@ section {
     padding: 3rem 9%;
 }
 
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    background: $light-blue;
+    color: $blue;
+    cursor: pointer;
+    border-radius: .5rem;
+    font-size: 1.7rem;
+
+    &:hover {
+        background: blue;
+        color: white;
+    }
+}
+
+/* HEADER */
+
 .header {
     position: sticky;
     top: 0;
@@ -104,6 +122,40 @@ section {
     color: $white;
     font-size: 2.5rem;
     display: none;
+}
+
+/* HOME */
+.home {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    .image {
+        flex: 1 1 42rem;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .content {
+        flex: 1 1 42rem;
+
+        h3 {
+            color: $blank;
+            font-size: 5rem;
+        }
+
+        p {
+            font-size: 1.4rem;
+            color: $light-color;
+            padding: 1rem 0;
+            line-height: 2.5;
+        }
+    }
+
+
 }
 
 /* FOOTER */
