@@ -15,3 +15,8 @@ Responsive Design
     // Reglas CSS
 }
 
+// Medidas del Footer
+
+>1200px --> 1rem = 10px  por tanto 25rem = 250px
+<1200px --> 1rem = 8.8px por tanto 25rem = 220px 
+
