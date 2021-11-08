@@ -54,6 +54,35 @@ section {
     }
 }
 
+/* HEADING */
+
+.heading {
+    background: url(../images/heading-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    h3 {
+        font-size: 3.5rem;
+        color: $blank;
+    }
+
+    p {
+        font-size: 1.6rem;
+        color: $light-color;
+        padding-top: .5rem;
+
+        a {
+            padding-right: .5rem;
+            color: $pink;
+
+            &:hover {
+                color: $blue;
+            }
+        }
+    }
+    
+}
+
 /* HEADER */
 
 .header {
@@ -183,6 +212,38 @@ section {
 
 }
 
+/* ABOUT */
+.about {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    .image {
+        flex: 1 1 42rem;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .content {
+        flex: 1 1 42rem;
+
+        h3 {
+            color: $blank;
+            font-size: 4.5rem;
+        }
+
+        p {
+            font-size: 1.4rem;
+            padding: 1rem 0;
+            color: $light-color;
+            line-height: 2.5;
+        }
+    }
+}
+
 /* FOOTER */
 .footer {
     background: $light-blue;
@@ -278,6 +339,10 @@ section {
                 }
             }
         }
+    }
+
+    .about .content h3  {
+        font-size: 3rem;
     }
 
 }
