@@ -275,6 +275,73 @@ section {
 
 }
 
+/* COURSE-2 */
+.course-2 {
+    @include grid(31rem);
+
+    .box {
+        background: $light-bg;
+        padding: 2rem;
+        border-radius: 1rem;
+
+        .image {
+            margin-bottom: 2rem;
+            text-align: center;
+
+            img {
+                height: 22rem;
+            }
+        }
+
+        .content {
+            span {
+                font-size: 1.4rem;
+                color: $pink;
+                background: $light-pink;
+                padding: .5rem 1rem;
+            }
+
+            h3 {
+                color: $blank;
+                margin-top: 1.5rem;
+                line-height: 2;
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1.4rem;
+                color: $light-color;
+                line-height: 2.5;
+                padding: 1rem 0;
+            }
+
+            .icons {
+                margin-top: 2rem;
+                padding-top: 2rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-top: $border;
+        
+                a {
+                    font-size: 1.4rem;
+                    color: $light-color;
+
+                    &:hover {
+                        color: $pink;
+                    }
+
+                    i {
+                        padding-right: .5rem;
+                        color: $pink;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
 /* FOOTER */
 .footer {
     background: $light-blue;
