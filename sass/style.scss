@@ -514,6 +514,76 @@ section {
     }
 }
 
+/* BLOGS */
+.blog {
+    @include grid(31rem);
+
+    .box {
+        .image {
+            height: 25rem;
+            width: 100%;
+            overflow: hidden;
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                border-radius: .5rem;
+            }
+        }
+
+        .content {
+            padding: 2rem;
+            background: $light-bg;
+
+            .icons {
+                padding: 1.5rem 0;
+                margin-bottom: 1rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                a {
+                    font-size: 1.4rem;
+                    color: $light-color;
+
+                    &:hover {
+                        color: blue;
+                    }
+
+                    i {
+                        padding-right: .5rem;
+                        color: $blue;
+                    }
+                }
+            }
+
+            h3 {
+                font-size: 1.7rem;
+                padding: .5rem 0;
+                color: $blank;
+            }
+
+            p {
+                font-size: 1.4rem;
+                padding: 1rem 0;
+                line-height: 2.5;
+                color: $light-color;
+            }
+        }
+
+
+    }
+}
+
+
+
+
+
+
+
+
+
 /* FOOTER */
 .footer {
     background: $light-blue;
